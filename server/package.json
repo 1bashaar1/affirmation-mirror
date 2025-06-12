@@ -1,11 +1,8 @@
 {
   "name": "affirmation-mirror-backend",
   "version": "1.0.0",
-  "description": "Backend for Affirmation Mirror",
-  "main": "app.js",
   "scripts": {
-    "start": "node app.js",
-    "dev": "nodemon app.js"  // Optional: For local dev
+    "start": "node app.js"
   },
   "dependencies": {
     "express": "^4.18.2",
@@ -16,8 +13,5 @@
     "openai": "^4.0.0",
     "cors": "^2.8.5",
     "multer": "^1.4.3"
-  },
-  "engines": {
-    "node": "14.x"  // Ensure you specify Node.js version
   }
 }
